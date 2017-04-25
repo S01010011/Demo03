@@ -1,0 +1,104 @@
+#header-title{
+	padding:240px 0 10px;
+	background:url(../images/background-1.jpg) center/cover fixed no-repeat;
+	position: relative;
+}
+#header-title:before{
+	background: #000;
+	content: "";	
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	opacity: 0.8;
+}
+#header-title .container{
+	position:relative;
+}
+#header-title .title{
+	padding-bottom:30px;
+}
+#header-title .title h2{
+	color:#FF8E1A;
+	font-size:55px;
+}
+#header-title .title .underline{
+	border-color:#fff;
+}
+#header-title .title ul{
+	margin:15px 0 10px;
+}
+#header-title .title ul li{
+	display:inline-block;
+	color:#F5C1BC;
+	font-size:14px;
+}
+#header-title .title ul li>a{
+	color:#EA8D86;	
+}
+#header-title .title ul li>a:hover{
+	color:#F5C1BC;
+}
+#header-title .title ul li i{
+	margin-right:3px;
+}
+#header-title .title ul > li + li:before{
+	color: #F8D5D1;
+	content: "+";
+	margin: 0 10px 0 8px;
+}
+
+
+/*service*/
+.services-food-menu .menu-content .fa{
+	display:block;
+	border:1px dashed #291005;
+	border-radius:50%;
+	width:70px;
+	height:70px;
+	line-height: 70px;
+	text-align:center;
+	margin-top:12px;
+	color:#341407;
+	font-size:25px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.services-food-menu .menu-content h4>a{
+	color:#A06007;
+}
+
+
+/*service-details*/
+#main .details-introduction ul{
+	padding:20px;
+}
+#main .details-introduction ul>li{
+	list-style:square;
+	font-size:18px;
+	line-height: 25px;
+	padding:7px 0;
+}
+
+/*contact-us*/
+#main #contact-us{
+	padding:90px 0;
+}
+#main #contact-us .title h2{
+	font-size:35px;
+	letter-spacing:-2px;
+}
+#main #contact-us p{
+	line-height: 45px;
+	padding-top:15px;
+}
+#main #contact-us .fa{
+	margin-right: 5px;
+}
+#main #contact-us a{
+	color:#2C3038;
+}
+#main #contact-us form{
+	margin-top:20px;
+}
